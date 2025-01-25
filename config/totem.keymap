@@ -196,10 +196,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp N0  &kp B           &kp UP           &kp W      &kp DOLLAR    &none  &none            &none  &none  &none
-       &none   &kp LEFT        &kp DOWN         &kp RIGHT  &none         &none  &none            &none  &none  &none
-&none  &none   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp V      &none         &none  &none            &none  &none  &none  &none
-                               &trans           &none      &none         &none  &esc_toggle_vim  &none
+       &kp N0           &kp B     &kp UP    &kp W      &kp DOLLAR       &none  &none            &none  &none  &none
+       &kp LEFT_BRACE   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_UP      &none  &none            &none  &none  &none
+&none  &kp RIGHT_BRACE  &none     &none     &kp V      &kp PAGE_DOWN    &none  &none            &none  &none  &none  &none
+                                  &trans    &none      &none            &none  &esc_toggle_vim  &none
             >;
         };
 
