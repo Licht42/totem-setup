@@ -109,8 +109,8 @@
             label = "Sym";
             bindings = <
         &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-        &kp F1    &kp F2  &kp F3    &kp F4      &kp F5         &trans     &kp UNDER      &kp EQUAL        &trans   &trans
-&trans  &kp F6    &kp F7  &kp F8    &kp F9      &kp F10        &trans     &trans         &trans           &trans   &kp SLASH  &kp HOME
+        &kp F1    &kp F2  &kp F3    &kp F4      &kp F5         &trans     &kp UNDER      &kp EQUAL        &trans   &kp NON_US_BACKSLASH
+&trans  &kp F6    &kp F7  &kp F8    &kp F9      &kp F10        &trans     &trans         &trans           &trans   &kp SLASH             &kp HOME
                           &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
@@ -149,10 +149,10 @@
         deadlock {
             label = "deadlock";
             bindings = <
-                &kp C       &kp NUMBER_1  &mt E NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans
-                &kp LSHIFT  &kp A         &kp W           &kp D         &kp G           &trans  &trans  &trans  &trans  &trans
-&mt TAB ESCAPE  &kp LCTRL   &kp Q         &kp S           &mt R V       &trans          &trans  &trans  &trans  &trans  &trans  &to 0
-                                          &kp LCTRL       &kp LEFT_ALT  &trans          &trans  &trans  &trans
+                &kp C       &kp NUMBER_1  &mt E NUMBER_2  &kp NUMBER_3  &mt N5 NUMBER_4    &trans  &trans  &trans  &trans  &trans
+                &kp LSHIFT  &kp A         &kp W           &kp D         &kp G              &trans  &trans  &trans  &trans  &trans
+&mt TAB ESCAPE  &kp LCTRL   &kp Q         &kp S           &mt R V       &trans             &trans  &trans  &trans  &trans  &trans  &to 0
+                                          &kp LCTRL       &kp LEFT_ALT  &trans             &trans  &trans  &trans
             >;
         };
     };
