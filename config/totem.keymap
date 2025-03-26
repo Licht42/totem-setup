@@ -53,6 +53,16 @@
             bindings = <&kp LS(LG(RIGHT))>;
             key-positions = <6 5>;
         };
+
+        esc_right {
+            bindings = <&kp ESC>;
+            key-positions = <8 9>;
+        };
+
+        esc_left {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
@@ -77,7 +87,6 @@
 
         qwerty {
             label = "BASE";
-
             bindings = <
                   &kp Q       &kp W           &kp E        &kp R        &kp T          &kp Y        &kp U            &kp I        &kp O       &kp P
                   &mt LGUI A  &mt LEFT_ALT S  &mt LSHFT D  &mt LCTRL F  &kp G          &kp H        &mt RCTRL J      &mt RSHFT K  &mt RALT L  &mt RGUI SEMI
@@ -110,9 +119,9 @@
             label = "ADJ";
             bindings = <
         &mt F11 F1  &mt F12 F2  &mt F13 F3  &mt F14 F4  &mt F15 F5    &mt F16 F6  &mt F17 F7  &mt F18 F8  &mt F19 9  &mt F20 F10
-        &kp LGUI    &kp LALT    &kp LSHFT   &kp LCTRL   &trans        &trans  &kp RCTRL  &kp RSHFT  &kp RALT  &kp RGUI
-&tog 3  &trans      &bt BT_PRV  &bt BT_CLR  &bt BT_NXT  &trans        &trans  &trans     &trans     &trans    &trans    &tog 3
-                                &trans      &trans      &trans        &trans  &trans     &trans
+        &kp LGUI    &kp LALT    &kp LSHFT   &kp LCTRL   &trans        &trans      &kp RCTRL   &kp RSHFT   &kp RALT   &kp RGUI
+&tog 3  &trans      &bt BT_PRV  &bt BT_CLR  &bt BT_NXT  &trans        &trans      &trans      &trans      &trans     &trans       &tog 3
+                                &trans      &trans      &trans        &trans      &trans      &trans
             >;
         };
 
