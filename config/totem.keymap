@@ -118,7 +118,7 @@
         Fun {
             label = "Fun";
             bindings = <
-        &trans  &trans  &trans  &trans  &to 7     &trans  &trans  &trans  &trans  &kp F1
+        &trans  &trans  &trans  &trans  &to 7     &to 8   &trans  &trans  &trans  &kp F1
         &trans  &trans  &trans  &trans  &to 5     &trans  &trans  &trans  &trans  &kp F10
 &trans  &trans  &trans  &trans  &trans  &to 6     &trans  &trans  &trans  &trans  &kp F20  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
@@ -162,6 +162,16 @@
                 &kp Q   &kp W   &kp E    &kp R    &kp T        &trans  &trans  &trans    &trans  &trans
 &mt TAB ESCAPE  &kp Z   &kp X   &kp C    &kp V    &kp B        &trans  &trans  &trans    &trans  &trans  &to 0
                                 &kp TAB  &kp ESC  &kp SPACE    &kp S   &kp D   &kp LALT
+            >;
+        };
+
+        layer_8 {
+            label = "deadlock";
+            bindings = <
+                &kp C       &kp NUMBER_1  &mt E NUMBER_2  &kp NUMBER_3  &mt N5 NUMBER_4    &trans  &trans  &trans  &trans  &trans
+                &kp LSHIFT  &kp A         &kp W           &kp D         &kp G              &trans  &trans  &trans  &trans  &trans
+&mt TAB ESCAPE  &kp LCTRL   &kp Q         &kp S           &mt R V       &trans             &trans  &trans  &trans  &trans  &trans  &to 0
+                                          &kp K           &kp X         &trans             &trans  &trans  &trans
             >;
         };
     };
