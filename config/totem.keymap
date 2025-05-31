@@ -91,7 +91,7 @@
         &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LA(LC(N7))      &kp LA(LC(N0))  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
         &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LA(LC(N8))      &kp LC(LA(N9))  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp RS(NUMBER_8)    &kp RS(N9)      &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
-                               &trans    &trans     &trans              &mo 3           &kp KP_N0     &trans
+                               &trans    &trans     &trans              &mo 3           &kp NUMBER_0     &trans
             >;
         };
 
